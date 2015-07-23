@@ -5,7 +5,8 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <DataGrid Name="FooGrid"
-                  AutoGenerateColumns="False">
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False">
             <DataGrid.Columns>
                 <c:DataGridNumericUpDownColumn Header="FooList"
                                                Binding="{Binding Value}"
